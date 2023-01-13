@@ -20,6 +20,7 @@ class TestCheckAmazon(BaseTest):
     9. By clicking the 'Delete' button next to this favorite product, it will be removed from my favourites.
     10. On page , it will be confirmed that this product is no longer favorites."""
 
+
     def test(self):
         base_page = BasePage(self.driver)
         home_page = HomePage(self.driver)
